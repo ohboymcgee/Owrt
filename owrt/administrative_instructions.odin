@@ -1,16 +1,20 @@
 package owrt
 
+import "./types"
+Runtime :: types.Runtime
+Func_Addr :: types.Func_Addr
+Extern_Addr :: types.Extern_Addr
+Stack_Label :: types.Stack_Label
+Activation_Frame :: types.Activation_Frame
 
-trap :: proc() {
-    panic("Trap encounteded")
-}
+/* _trap :: proc() 
 
-ref :: proc(state: ^Runtime, addr: Func_Addr) 
+_ref :: proc(state: ^Runtime, addr: Func_Addr) 
 
-ref_extrern :: proc(state: ^Runtime, addr: Extern_Addr) 
+_ref_extrern :: proc(state: ^Runtime, addr: Extern_Addr) 
 
-invoke :: proc(state: ^Runtime, addr: Func_Addr) 
+_invoke :: proc(state: ^Runtime, addr: Func_Addr) 
 
-label :: proc(state: ^Runtime, label: ^Stack_Label) 
+_label :: proc(state: ^Runtime, label: ^Stack_Label) 
 
-frame :: proc(state: ^Runtime, frame_state: Activation_Frame) 
+_frame :: proc(state: ^Runtime, frame_state: Activation_Frame)  */
